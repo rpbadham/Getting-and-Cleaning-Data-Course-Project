@@ -18,6 +18,11 @@
 # 5). From the data set in step 4, create a second, independent tidy data set 
 #    with the average of each variable for each activity and each subject.
 
+# Check to see if data directory exists, if not, assume we are in it.
+dataDir <- "UCI HAR Dataset"
+if (file.exists(dataDir)){
+	setwd(dataDir)
+}
 
 # Read the activity labels
 activity_labels <- read.table("./activity_labels.txt")
