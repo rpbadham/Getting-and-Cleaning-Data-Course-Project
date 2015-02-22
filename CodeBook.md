@@ -16,13 +16,16 @@ The script **"run_analysis.R"**
 3. Outputs to a data file called **"tidy_dataset.txt"** containing aggregated average values for the mean and standard deviation of each feature grouped by activity.
 
 ##Output##
-The output file **"tidy_dataset.txt"** contains a dataset consisting of 66 columns and 6 rows.
-There is one row for each of 6 activities listed in the first column. 
+###Description of features###
+A complete **description of the features** in the remaining columns can be found in the file **"features_info.txt"**.
 
-A complete **description of the features in the remaining columns can be found in the file **"features_info.txt"**.
-
+###Description of measurements###
 A **description of measurement units** is available in the **"README.txt"** file accompanying the input data.
 
+###Output file###
+The output file **"tidy_dataset.txt"** contains a dataset consisting of 66 columns and 6 rows.
+
+There is one row for each of 6 activities listed in the first column. 
 A complete list of the columns follows.
 * prefix "t" donates time domain signals.
 * prefix "f" denotes frequency domain signals.
