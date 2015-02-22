@@ -17,7 +17,7 @@ The script **"run_analysis.R"**
 
 ##Output##
 ###Description of features###
-A complete **description of the features** in the remaining columns can be found in the file **"features_info.txt"**.
+A complete **description of the features** can be found in the file **"features_info.txt"**.
 
 ###Description of measurements###
 A **description of measurement units** is given in the **"README.txt"** file accompanying the input data.
