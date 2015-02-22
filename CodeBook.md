@@ -8,6 +8,8 @@ The input data has been collected from the accelerometers of the Samsung Galaxy 
 
 The complete list of variables of each feature vector is available in the **'features.txt'** file accompanying the input data which was downloaded at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+A description of **measurement units** is available in the **"README.txt"** file accompanying the input data.
+
 ##Script##
 The script **"run_analysis.R"**
 
@@ -22,8 +24,8 @@ There is one row for each of 6 activities listed in the first column.
 A complete description of the features in the remaining columns can be found in the file "features_info.txt".
 
 A complete list of the columns follows.
-The prefix "t" donates time domain signals.
-The prefix f denotes freuency domain signals.
+* prefix "t" donates time domain signals.
+* prefix "f" denotes frequency domain signals.
 
  [1] "Activity"                    "tBodyAcc-mean()-Y"           "tBodyAcc-mean()-Z"           "tBodyAcc-std()-X"           
  [5] "tBodyAcc-std()-Y"            "tBodyAcc-std()-Z"            "tGravityAcc-mean()-X"        "tGravityAcc-mean()-Y"       
