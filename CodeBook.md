@@ -27,8 +27,6 @@ The output file **"tidy_dataset.txt"** contains a dataset consisting of 66 colum
 
 There is one row for each of 6 activities listed in the first column. 
 A complete list of the columns follows.
-* prefix "t" donates time domain signals.
-* prefix "f" denotes frequency domain signals.
 
  [1] "Activity"                    "tBodyAcc-mean()-Y"           "tBodyAcc-mean()-Z"           "tBodyAcc-std()-X"           
  [5] "tBodyAcc-std()-Y"            "tBodyAcc-std()-Z"            "tGravityAcc-mean()-X"        "tGravityAcc-mean()-Y"       
