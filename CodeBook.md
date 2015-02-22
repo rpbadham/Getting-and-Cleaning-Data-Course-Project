@@ -1,15 +1,20 @@
-This is the Code Book for tidy_dataset.txt which is the output produced by executing "run_analysis.R".
+#Code Book for output file *tidy_dataset.txt*#
+Author: Richard Badham
 
+This is the Code Book for **tidy_dataset.txt** which is the output file produced by executing **"run_analysis.R"**.
+
+##Input##
 The input data has been collected from the accelerometers of the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The complete list of variables of each feature vector is available in 'features.txt' file accompanying the input data which was downloaded at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+The complete list of variables of each feature vector is available in the **'features.txt'** file accompanying the input data which was downloaded at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The script "run_analysis.R" 
-1) Merges the training and the test sets to create one data set.
-2) Extracts only the measurements on the mean and standard deviation for each measurement.
-3) Outputs to a data file called "tidy_dataset.txt" containing aggregated average values for the mean and standard deviation of each feature grouped by activity.
+##Script##
+The script **"run_analysis.R"** 
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Outputs to a data file called **"tidy_dataset.txt"** containing aggregated average values for the mean and standard deviation of each feature grouped by activity.
 
-The 6 activities are: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+##Output##
 A complete description of the features can be found in the file "features_info.txt".
 
 A complete list of the columns in the output data set "tidy_dataset.txt" follows:
@@ -32,4 +37,10 @@ A complete list of the columns in the output data set "tidy_dataset.txt" follows
 [61] "fBodyBodyAccJerkMag-mean()"  "fBodyBodyAccJerkMag-std()"   "fBodyBodyGyroMag-mean()"     "fBodyBodyGyroMag-std()"     
 [65] "fBodyBodyGyroJerkMag-mean()" "fBodyBodyGyroJerkMag-std()"
 
+The 6 activities for which average values are output are: 
+* LAYING
+* SITTING
+* WALKING
+* WALKING_DOWNSTAIRS
+* WALKING_UPSTAIRS
 
