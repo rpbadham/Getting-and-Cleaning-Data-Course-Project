@@ -8,8 +8,6 @@ The input data has been collected from the accelerometers of the Samsung Galaxy 
 
 The complete list of variables of each feature vector is available in the **'features.txt'** file accompanying the input data which was downloaded at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-A description of **measurement units** is available in the **"README.txt"** file accompanying the input data.
-
 ##Script##
 The script **"run_analysis.R"**
 
@@ -21,7 +19,9 @@ The script **"run_analysis.R"**
 The output file **"tidy_dataset.txt"** contains a dataset consisting of 66 columns and 6 rows.
 There is one row for each of 6 activities listed in the first column. 
 
-A complete description of the features in the remaining columns can be found in the file "features_info.txt".
+A complete **description of the features in the remaining columns can be found in the file **"features_info.txt"**.
+
+A **description of measurement units** is available in the **"README.txt"** file accompanying the input data.
 
 A complete list of the columns follows.
 * prefix "t" donates time domain signals.
