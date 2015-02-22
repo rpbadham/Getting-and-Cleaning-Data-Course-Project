@@ -13,20 +13,18 @@ The script **"run_analysis.R"**
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Outputs to a data file called **"tidy_dataset.txt"** containing aggregated average values for the mean and standard deviation of each feature grouped by activity.
+3. Outputs to a data file called **"tidy_dataset.txt"**.
 
 ##Output##
 ###Description of features###
 A complete **description of the features** in the remaining columns can be found in the file **"features_info.txt"**.
 
 ###Description of measurements###
-A **description of measurement units** is available in the **"README.txt"** file accompanying the input data.
+A **description of measurement units** is given in the **"README.txt"** file accompanying the input data.
 
 ###Output file###
-The output file **"tidy_dataset.txt"** contains a dataset consisting of 66 columns and 6 rows.
-
-There is one row for each of 6 activities listed in the first column. 
-A complete list of the columns follows.
+The output file **"tidy_dataset.txt"** contains an dataset consisting of 66 columns and 6 rows.
+Column [1] contains the 6 activities for which average values for the mean and standard deviation of each feature have been calculated.
 
  [1] "Activity"                    "tBodyAcc-mean()-Y"           "tBodyAcc-mean()-Z"           "tBodyAcc-std()-X"           
  [5] "tBodyAcc-std()-Y"            "tBodyAcc-std()-Z"            "tGravityAcc-mean()-X"        "tGravityAcc-mean()-Y"       
